@@ -25,3 +25,4 @@ document.querySelector('.tecla_puff').onclick = TocaSomPuff;
 function TocaSomSplash(){
     document.querySelector('#som_tecla_splash').play();
 }
+document.querySelector('.tecla_splah').onclick = TocaSomSplash;
