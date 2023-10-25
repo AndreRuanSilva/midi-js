@@ -26,3 +26,9 @@ function TocaSomSplash(){
     document.querySelector('#som_tecla_splash').play();
 }
 document.querySelector('.tecla_splah').onclick = TocaSomSplash;
+
+
+function TocaSomToim(){
+    document.querySelector('#som_tecla_toim').play();
+}
+document.querySelector('.tecla_toim').onclick = TocaSomToim;
