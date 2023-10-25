@@ -15,7 +15,13 @@ function TocaSomTim(){
 }
 document.querySelector('.tecla_tim').onclick = TocaSomTim;
 
+
 function TocaSomPuff(){
     document.querySelector('#som_tecla_puff').play();
 }
 document.querySelector('.tecla_puff').onclick = TocaSomPuff;
+
+
+function TocaSomSplash(){
+    document.querySelector('#som_tecla_splash').play();
+}
