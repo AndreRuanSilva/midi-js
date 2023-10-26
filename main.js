@@ -48,4 +48,10 @@ document.querySelector('.tecla_tic').onclick = TocaSomTic;
 
 function TocaSomTom(){
     document.querySelector('#som_tecla_tom').play();
-}document.querySelector('.tecla_tom').onclick = TocaSomTom;
+}
+document.querySelector('.tecla_tom').onclick = TocaSomTom;
+
+function TocaSomChines(){
+    document.querySelector('#som_tecla_chines').play();
+}
+document.querySelector('.tecla_chines').onclick = TocaSomChines;
