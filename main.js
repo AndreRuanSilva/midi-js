@@ -63,3 +63,9 @@ function TocaSomChicken(){
     document.querySelector('#som_tecla_chicken').play();
 }
 document.querySelector('.tecla_chicken').onclick = TocaSomChicken;
+
+
+function TocaSomTravando(){
+    document.querySelector('#som tecla_travando').play();
+}
+document.querySelector('.tecla_travando').onclick = TocaSomTravando;
