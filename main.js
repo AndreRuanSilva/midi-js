@@ -51,7 +51,15 @@ function TocaSomTom(){
 }
 document.querySelector('.tecla_tom').onclick = TocaSomTom;
 
+
 function TocaSomChines(){
     document.querySelector('#som_tecla_chines').play();
 }
 document.querySelector('.tecla_chines').onclick = TocaSomChines;
+
+
+
+function TocaSomChicken(){
+    document.querySelector('#som_tecla_chicken').play();
+}
+document.querySelector('.tecla_chicken').onclick = TocaSomChicken;
